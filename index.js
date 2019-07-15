@@ -64,23 +64,20 @@ function checkForm(e) {
 
 
 
-    let cc1 = document.querySelector("input[value=option1]");
+    let cc1 = document.querySelector("[value=option1]");
 
     let cc2 = document.querySelector("input[value=option2]");
     
-    let cc3 = document.querySelector("input[value=option3]");
+    let cc3 = document.querySelector("[value=option3]");
     
     let cc4 = document.querySelector("input[value=option4]");
 
-    
    
-    if (!cc1.checked|| !cc2.checked || !cc3.checked || !cc4.checked) 
-    {
+    if (!cc1.checked && !cc2.checked && !cc3.checked && !cc4.checked) {
         error_list +=  "<div>One must be checked.</div>";
     }
     
-        
-        
+         
     
 
     
